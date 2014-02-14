@@ -1,0 +1,126 @@
+#main{
+	position: absolute;
+	top: 130px;
+	left: 0px;
+}
+
+#title a{
+	font-size: 10pt;
+	color: white;
+	background-color: black;
+}
+
+#title{
+	position: absolute;
+	top: 0px;
+	left: 510px;
+}
+
+p {
+	color: white;
+	font-size: 32px;
+	top: -30px;
+	position: relative;
+}
+
+.downBtn{
+	background-image:url('img/down.png');
+	height:50px;
+	width: 500px;
+	position: absolute;
+	top: 500px;
+}
+
+.upBtn{
+	background-image:url('img/up.png');
+	height:50px;
+	width: 500px;
+	position: absolute;
+	top: -80px;
+}
+
+.panel{
+	position: absolute;
+	width: 150px;
+	height: 800px;
+}
+
+.centerPanel{
+	position: absolute;
+	width: 500px;
+	height: 800px;
+}
+
+
+.innerPanel{
+	height: 156.66px;
+	background-size: 150px;
+	background-repeat: no-repeat;
+}
+
+.innerPanel text{
+	font-size: 10pt;
+	position: relative;
+	top: 135px;
+	left: 5px;
+	color: white;
+}
+
+.centerPanel a text{
+	position: absolute;
+	left: 10px;
+	top: 505px;
+	z-index: 1000;
+	font-size: 12pt;
+	color: white;
+}
+
+.centerInfoPanel{
+	position: absolute;
+	top: 470px;
+	width: 500px;
+	height: 30px;
+	background-color: black;
+	z-index: -1;
+}
+
+.centerInnerPanel{
+	position: absolute;
+	top: -30px;
+	height: 500px;
+	width: 500px;
+	background-size: 500px;
+	background-repeat: no-repeat;
+}
+
+.yearTag{
+	font-size: 16pt;
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	background-color: rgba(0, 0, 0, 30);
+	color: #FFFFFF;
+	top: -30px;
+}
+
+.centerYearTag{
+	padding-left: 10px;
+	font-size: 32pt;
+	position: absolute;
+	width: 120px;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 30);
+	color: #FFFFFF;
+	top: -30px;
+}
+
+body{
+	font-family: "HelveticaNeue-Light";
+	background-color: black;
+	background-image: url('img/background.png');
+}
+
+a:link {text-decoration:none; color: black;}
+a:visited {text-decoration:none; color: black;}
+a:hover {text-decoration:none; color: rgb(255, 230, 50);}
+a:active {text-decoration:none; color: black;}
